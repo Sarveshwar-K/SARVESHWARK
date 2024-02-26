@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <title>Sarveshwar Kohale</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Sarveshwar Kohale</a>
+            </div><!--/.navbar-header -->
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li id="nav-about"><a href="#about">About</a></li>
+                    <li id="nav-portfolio"><a href="#portfolio">Portfolio</a></li>
+                    <li id="nav-contact"><a href="#contact">Contact</a></li>
+                    <li id="nav-contact"><a href="https://drive.google.com/file/d/1dUfaMMExM21igF-e_cPHDcz6TWArLW41/view?usp=sharing">Resume</a></li>
+                    
+            
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <!-- Begin page content -->
+    <div class="container-fluid">
+
+        <div class="row cover top">
+            <div class="col-xs-12">
+
+                <div class="row">
+                    <div class="col-xs-12 headline">
+                        <h1 class="text-center"></h1>
+
+
+                        <script>
+        // Typing effect
+                        const text = "Hi, I'm Sarveshwar";
+                        let index = 0;
+
+                        function type() {
+                            document.querySelector('.headline h1').textContent += text[index];
+                            index++;
+
+                            if (index < text.length) {
+                                setTimeout(type, 100);
+                            }
+                            }
+
+                        type();
+                        </script>
+
+                        
+                        <p class="lead text-center">Interested in Quantum Computing, Image processing and AI</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 center-block text-center">
+                        <a href="#about"><span id="scrollIcon" class="front-glyph glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div><!--/.row cover top -->
+
+
+        <div id="about" class="row cover">
+            <h2 class="text-center">About Me</h2>
+            <div class="row">
+
+                <div class="col-md-6 text-center about-info">
+                    <img class="img-circle text-center profile-img" src="img/Square-Ireland.png">
+
+                    <p class="text-center">I am an undergrad student enthusiastic about solving problems which lie in the domain of Quantum Computing and it's sub domains. A core member of Google Developer Student Club as well as Microsoft Learn Student Ambassador Via these opportunities hoping to create a positive impact on communities. Currently looking for meaningful opportunities which lead a tangible impact with all the tools I have attempted to master</p>
+                </div><!--/.about-info -->
+
+                <div class="col-md-6 about-tools">
+                    <p class="text-center">Here are few of the tools I use</p>
+                    <div class="col-xs-6">
+                        <ul>
+                            <li>Python</li>
+                            <li>Q#</li>
+                            <li>C</li>
+                            <li>IOT</li>
+                            <li>Image Processing</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-6">
+                        <ul>
+                            <li>Git</li>
+                            <li>Qiskit API</li>
+                            <li>Cirq</li>
+                            <li>Tensorflow</li>
+                            <li>Open-Cv</li>
+                        </ul>
+                    </div>
+
+                </div><!--/.about-tools -->
+
+                <div class="row break">
+                    <div class="col-md-6 about-last">
+                        <p class="text-center">Check out my latest projects <a href="#portfolio"><span class="glyphicon glyphicon-arrow-down"></span></a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div><!-- End #About -->
+
+        <div id="portfolio" class="row cover">
+            <h2 class="text-center">Portfolio</h2>
+            <div class="container">
+
+                <div class="row portfolio-projects"> <!-- Two project row-->
+
+                    <div class="col-lg-6"> <!--1st side project -->
+                        <div class="row">
+
+                            <div class="col-sm-5 text-center">
+                                <h4 class="portfolio-projects--title">QSTH project, QETCI</h4>
+                                <p class="portfolio-projects--desc">Worked on Quantum Optimization Algorithm for Removal of Traffic Congestions and a Notification system for the drivers
+                                    to let them know about the state of every intersection they might happen to encounter</p>
+                                <p class="portfolio-projects--desc">Uses: Qiskit, Quantum Azure, Hadoop, Python, Open-Cv</p>
+                                <a class="btn btn-rounded portfolio-projects--btn" href="https://www.youtube.com/watch?v=wklvzUVjP60" target="_blank" role="button">View Project</a>
+                            </div>
+
+                            <div class="col-sm-7 text-center">
+                                <img class="portfolio-projects--image" src="img/slice-deloma-blog-2017.png">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6"> <!--2nd side project -->
+                        <div class="row">
+
+                            <div class="col-sm-5 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                                <h4 class="portfolio-projects--title">CanSat, ASI</h4>
+                                <p class="portfolio-projects--desc">Worked on creating the software framework to achieve the given set of objectives outlined by the organizers of this
+                                    hackathon</p>
+                                <p class="portfolio-projects--desc">Uses: C, Python, Pandas, NumPy, IoT</p>
+                                
+                            </div>
+
+                            <div class="col-sm-7 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                                <img class="portfolio-projects--image" src="img/slice-regenerous-2017.png">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div><!--end Two project row-->
+
+                <div class="row portfolio-projects"> <!-- Opposite Two project row-->
+
+                    <div class="col-lg-6"> <!--1st side project -->
+                        <div class="row">
+
+                            <div class="col-sm-5 text-center">
+                                <h4 class="portfolio-projects--title">Qiskit Summer School of 2023</h4>
+                                <p class="portfolio-projects--desc">Attended the Summer school organized by IBM Quantum and completed the labs.</p>
+                                <p class="portfolio-projects--desc">Skills Gained: Qiskit API, Quantum Algorithms</p>
+                                <a class="btn btn-rounded portfolio-projects--btn" href="https://drive.google.com/file/d/1YLOZKAX0MvymtcxMw2Bo6LezvHwS4H8d/view" target="_blank" role="button">View Certificate</a>
+                            </div>
+
+                            <div class="col-sm-7 text-center">
+                                <img class="img-rounded portfolio-projects--image" src="img/slice-weather-resized.png">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6"> <!--2nd side project -->
+                        <div class="row">
+
+                            <div class="col-sm-5 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                                <h4 class="portfolio-projects--title">JALAJ, Google Solution Challenge</h4>
+                                <p class="portfolio-projects--desc"> Developing an UN-SDG-aligned autonomous submarine with advanced tech.</p>
+                                <p class="portfolio-projects--desc">Uses: IOT, Python, Google Cloud Platform, Android Development</p>
+                                <a class="btn btn-rounded portfolio-projects--btn" href="https://github.com/sarthak309k/Jalaj" target="_blank" role="button">View Project</a>
+                            </div>
+
+                            <div class="col-sm-7 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                                <img class="img-rounded portfolio-projects--image" src="img/slice-simon.png">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div><!--end Opposite Two project row-->
+
+                <div class="row portfolio-projects"> <!-- Two project row-->
+
+                    <div class="col-lg-6"> <!--1st side project -->
+                        <div class="row">
+
+                            <div class="col-sm-5 text-center">
+                                <h4 class="portfolio-projects--title">GDSC core member</h4>
+                                <p class="portfolio-projects--desc">GDSC core member, held multiple technical events</p>
+                                <p class="portfolio-projects--desc">Skills gained: Leadership, Team work</p>
+                                <a class="btn btn-rounded portfolio-projects--btn" href="https://developers.google.com/profile/badges/community/gdsc/2023/core-member" target="_blank" role="button">View Badge</a>
+                            </div>
+
+                            <div class="col-sm-7 text-center">
+                                <img class="portfolio-projects--image" src="img/slice-quotes.png">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6"> <!--2nd side project -->
+                        <div class="row">
+
+                            <div class="col-sm-5 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                                <h4 class="portfolio-projects--title">MLSA</h4>
+                                <p class="portfolio-projects--desc">MLSA in my University, held a workshop on GitHub</p>
+                                <p class="portfolio-projects--desc">Skills Gained: Community leadership, GitHub, Collaboration</p>
+                                <a class="btn btn-rounded portfolio-projects--btn" href="https://mvp.microsoft.com/en-US/studentambassadors/profile/3265e497-33e0-4544-90fe-1c6412f2dcbe" target="_blank" role="button">View Profile</a>
+                            </div>
+
+                            <div class="col-sm-7 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                                <img class="portfolio-projects--image" src="img/slice-task-timer.png">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div><!--end Two project row-->
+
+            </div>
+        </div><!-- End #Portfolio -->
+
+        <div id="contact" class="row cover bottom">
+            <h2 class="text-center contact-header">Contact Me</h2>
+            <p class="text-center contact-email">Get in touch with me <span class="glyphicon glyphicon-arrow-right"></span> shorcrux7@gmail.com</p>
+
+            <div class="text-center contact-social-icons">
+                <p>Or find me on:</p>
+
+                <ul class="centered">
+                    <a href="https://www.linkedin.com/in/sarveshwar-kohale-a9137b1b9/"><li><i class="fa fa-linkedin-square"></i> LinkedIn</li></a>
+                </ul>
+            </div>
+
+        </div><!-- End #Contact -->
+
+    </div><!-- End .container-fluid -->
+
+    <footer class="footer">
+        <div class="container">
+            <p class="pull-right"> </p>
+        </div>
+    </footer>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.0/jquery.scrollTo.min.js"></script>
+<script>
+
+    $(document).ready(function() {
+
+        // Transition effect for navbar and back-to-top icon
+        $(window).scroll(function() {
+            // checks if window is scrolled more than 500px, adds/removes solid class
+            if($(this).scrollTop() > 550) {
+                $('.navbar').addClass('solid');
+                $('.back-to-top').addClass('visible');
+            } else {
+                $('.navbar').removeClass('solid');
+                $('.back-to-top').removeClass('visible');
+            }
+        });
+
+        // Scrolling effect for Arrow icons
+        $("#scrollIcon").click(function(e) {
+            e.preventDefault();
+            $.scrollTo($("#about"), 1000);
+        });
+        $("#nav-about").click(function(e) {
+            e.preventDefault();
+            $.scrollTo($("#about"), 1000);
+        });
+        $("#nav-portfolio").click(function(e) {
+            e.preventDefault();
+            $.scrollTo($("#portfolio"), 1000);
+        });
+        $("#nav-contact").click(function(e) {
+            e.preventDefault();
+            $.scrollTo($("#contact"), 1000);
+        });
+        $(".navbar-brand").click(function(e) {
+            e.preventDefault();
+            $.scrollTo(0, 1000);
+        });
+
+    });
+
+</script>
+</body>
+</html>
